@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+#timer {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
+
