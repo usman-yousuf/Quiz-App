@@ -40,7 +40,7 @@ echo '<script>
         document.getElementById("timer").innerHTML = "Time left: " + timeLimit + " seconds";
         if (timeLimit <= 0) {
             clearInterval(timer);
-            document.forms[0].submit(); // Auto-submit the form when time is up
+            document.forms[0].submit();
         }
     }, 1000);
 </script>';
